@@ -24,3 +24,7 @@ while True:
 # 如果猜测次数超过 5 次，给出提示
 if guesses > 5:
     print("你猜的次数有点多，再接再厉！")
+ if guess < target_number:
+        print("猜小了，请再试一次。")
+    elif guess > target_number:
+        print("猜大了，请再试一次。")
